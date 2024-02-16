@@ -22,7 +22,7 @@ class SDKConfiguration:
     openapi_doc_version: str = '0.1'
     sdk_version: str = '0.2.0'
     gen_version: str = '2.253.0'
-    user_agent: str = 'speakeasy-sdk/python 0.2.0 2.253.0 0.1 FantasyFootball'
+    user_agent: str = 'pyswc sdk'
     retry_config: RetryConfig = None
 
     def get_server_details(self) -> Tuple[str, Dict[str, str]]:

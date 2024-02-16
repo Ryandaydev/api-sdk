@@ -1,6 +1,6 @@
 from .sdkconfiguration import SDKConfiguration
-from fantasyfootball import utils
-from fantasyfootball.models import errors, operations
+from pyswc import utils
+#from fantasyfootball.models import errors, operations
 from typing import Any, Optional
 
 class General:

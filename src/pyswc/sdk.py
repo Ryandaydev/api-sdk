@@ -4,7 +4,7 @@ from .general import General
 #from .player import Player
 #from .scoring import Scoring
 from .sdkconfiguration import SDKConfiguration
-from fantasyfootball import utils
+from pyswc import utils
 from typing import Dict
 
 class FantasyFootball:
