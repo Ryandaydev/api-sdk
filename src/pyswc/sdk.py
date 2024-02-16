@@ -7,7 +7,7 @@ from .sdkconfiguration import SDKConfiguration
 from pyswc import utils
 from typing import Dict
 
-class FantasyFootball:
+class Swcapi:
     r"""Sports World Central (SWC) Fantasy Football API:
     This API provides read-only access to info from the Sports World Central (SWC) Fantasy Football API. 🏈. 
     The endpoints are grouped into the following categories:
