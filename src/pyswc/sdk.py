@@ -1,8 +1,8 @@
 import requests as requests_http
 from .general import General
-from .membership import Membership
-from .player import Player
-from .scoring import Scoring
+#from .membership import Membership
+#from .player import Player
+#from .scoring import Scoring
 from .sdkconfiguration import SDKConfiguration
 from fantasyfootball import utils
 from typing import Dict
@@ -22,9 +22,9 @@ class FantasyFootball:
     Get information about all the SWC fantasy football leagues and the teams in them.
     """
     general: General
-    player: Player
-    scoring: Scoring
-    membership: Membership
+    #player: Player
+    # scoring: Scoring
+    # membership: Membership
 
     sdk_configuration: SDKConfiguration
 
@@ -61,7 +61,7 @@ class FantasyFootball:
     
     def _init_sdks(self):
         self.general = General(self.sdk_configuration)
-        self.player = Player(self.sdk_configuration)
-        self.scoring = Scoring(self.sdk_configuration)
-        self.membership = Membership(self.sdk_configuration)
+        #self.player = Player(self.sdk_configuration)
+        # self.scoring = Scoring(self.sdk_configuration)
+        # self.membership = Membership(self.sdk_configuration)
     
