@@ -1,5 +1,6 @@
 from .sdkconfiguration import SDKConfiguration
 from pyswc import utils
+from pyswc.models import operations
 #from fantasyfootball.models import errors, operations
 from typing import Any, Optional
 

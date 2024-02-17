@@ -1,4 +1,4 @@
-import sdk as sdk
+import src.pyswc.sdk as sdk
 
 s = sdk.Swcapi()
 

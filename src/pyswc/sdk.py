@@ -4,7 +4,8 @@ from .general import General
 #from .player import Player
 #from .scoring import Scoring
 from .sdkconfiguration import SDKConfiguration
-from pyswc import utils
+from pyswc.utils import utils
+from pyswc.utils import retries
 from typing import Dict
 
 class Swcapi:
@@ -33,7 +34,8 @@ class Swcapi:
                  server_url: str = None,
                  url_params: Dict[str, str] = None,
                  client: requests_http.Session = None,
-                 retry_config: utils.RetryConfig = None
+                 retry_config: retries.RetryConfig = None
+                 #retry_config: utils.RetryConfig = None
                  ) -> None:
         """Instantiates the SDK configuring it with the provided parameters.
         
